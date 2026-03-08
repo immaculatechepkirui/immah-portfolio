@@ -1,17 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Turret+Road:wght@200;300;400;500;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Laila:wght@400;500;600;700&display=swap');
 :root {
-    --hue-color: 242;
+    /* --hue-color: 242; */
 
-    --skin-color: hsl(308, 46%, 50%);
-    --mirage-color: hsl(210, 30%, 28%);
-    --title-color: hsl(var(--hue-color), 8%, 95%);
-    --text-color: hsl(var(--hue-color), 8%, 85%);
-    --body-color: hsl(var(--hue-color), 19%, 5%);
-    --box-color: hsl(var(--hue-color), 14%, 10%);
-    --scroll-box-color: hsl(var(--hue-color), 12%, 38%);
-    --scroll-thumb-color: hsl(var(--hue-color), 12%, 26%);
-
+     /* --- Minty Forest Palette --- */
+  --skin-color: hsl(82, 20%, 62%);    /* #A3B18A - Muted Green */
+  --mirage-color: hsl(82, 10%, 40%);  /* Darker shade of #A3B18A */
+  
+  /* --- Based on #DAD7CD (Light Grey-Green) --- */
+  --title-color: hsl(46, 15%, 95%);
+  --text-color: hsl(46, 15%, 85%);
+  
+  /* --- Darker accents for body/boxes --- */
+  --body-color: hsl(46, 15%, 10%);    /* Very dark green-grey */
+  --box-color: hsl(46, 15%, 15%);
+  
+  /* --- Scrollbar colors using the theme --- */
+  --scroll-box-color: hsl(82, 10%, 30%);
+  --scroll-thumb-color: hsl(82, 10%, 45%);
     --body-font: 'Laila', sans-serif;
     --signature-font: 'Laila', sans-serif;
 
