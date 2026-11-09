@@ -1,0 +1,8 @@
+# Permanent move to the current portfolio.
+# Declared here as well as in _redirects so the redirect applies regardless
+# of which directory this site publishes from.
+[[redirects]]
+  from = "/*"
+  to = "https://immaculatechepkirui-portfolio.vercel.app/:splat"
+  status = 301
+  force = true

@@ -1,0 +1,5 @@
+# Permanent move to the current portfolio.
+# 301 so search engines transfer this site's ranking to the new address.
+# The trailing ! forces the redirect to win over the static files still in
+# this repository, which would otherwise be served instead.
+/*  https://immaculatechepkirui-portfolio.vercel.app/:splat  301!
